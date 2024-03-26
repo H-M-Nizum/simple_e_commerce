@@ -1,0 +1,35 @@
+.product_container{
+    border: 2px solid rgb(187, 185, 185);
+    border-radius: 10px;
+    position: relative;
+}
+.card_body{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.product_container img{
+    width: 286px;
+    border-radius: 8px;
+    
+}
+.product_img{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.addCardButton{
+    background-color: #FFE0B3;
+    text-align: center;
+    display: inline;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+}
+.addCardButton:hover{
+    background-color:  #f8c374;
+}
