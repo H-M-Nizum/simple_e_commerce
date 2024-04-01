@@ -6,6 +6,12 @@
     padding-left: 140px;
     padding-right: 140px;
     height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 2000px;
 }
 .header a {
     color: #ffffff;
